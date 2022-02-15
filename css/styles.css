@@ -1,0 +1,104 @@
+body{
+  font-style: serif;
+}
+#title{
+  background-color:  #ff4c68;
+}
+.row-img{
+  padding-bottom: 20%;
+}
+.button-div{
+  position:relative;
+  left:10%;
+}
+.download-button{
+  margin:5px 5px 5px 5px;
+}
+h1{
+  padding: 20;
+  color:#fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  margin:50px;
+}
+
+.navbar-brand{
+  font-size:50px;
+}
+.nav-link{
+  font-family: "Montserrat",sans-serif;
+}
+
+.img-iphone{
+  width:27%;
+  position: relative;
+  left:60%;
+  padding:20px 100px 20px 0px;
+  transform: rotate(15deg);
+  position:absolute;
+  right:10%;
+  top:25%;
+  z-index=-1;
+
+}
+#features{
+  padding:5% 5%;
+ background-color: #fff;
+ position:relative;
+ z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding:5% 5% 5% 5%;
+
+}
+.class{
+  color:orange;
+}
+.class:hover{
+  color: #ff8533;
+}
+#testimonials{
+ padding:7% 15%;
+ text-align: center;
+ background-color: #ff7185;
+ color:#fff;
+ //*position: relative;
+ z-index: 1;*/
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+}
+#press{
+  background-color: #ff7185;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+#pricing{
+  padding:5% 0%;
+  text-align: center;
+
+}
+.pricing-column{
+  padding-top: 3%  0%;
+}
+#cta{
+  padding-left: 35%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.action-h3{
+  padding: 5%;
+  line-height:2;
+}
+  .cta-btn{
+
+    margin:20px 20px;
+  }
+
+#footer{
+  text-align: center;
+}
