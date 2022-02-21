@@ -2,7 +2,9 @@ body{
   font-style: serif;
 }
 #title{
-  background-color:  #ff4c68;
+  background-color:#ff3333;
+  margin: 3px;
+  border-radius: 5px;
 }
 .row-img{
   padding-bottom: 20%;
@@ -31,22 +33,25 @@ h1{
 }
 
 .img-iphone{
-  width:27%;
+  width:23%;
   position: relative;
-  left:60%;
+  left: 60%;
+  position: absolute;
+  top:32%;
   padding:20px 100px 20px 0px;
   transform: rotate(15deg);
   position:absolute;
-  right:10%;
-  top:25%;
   z-index=-1;
 
 }
 #features{
   padding:5% 5%;
- background-color: #fff;
+ background-color: blue;
+ color:#fff;
  position:relative;
  z-index: 1;
+ margin: 3px;
+ border-radius: 5px;
 }
 .feature-box{
   text-align: center;
@@ -54,47 +59,58 @@ h1{
 
 }
 .class{
-  color:orange;
+  color:#fff;
+  padding-bottom: 20px;
 }
 .class:hover{
-  color: #ff8533;
+  color: green;
 }
 #testimonials{
+  margin-left: 3px;
+  margin-right: 3px;
  padding:7% 15%;
  text-align: center;
- background-color: #ff7185;
+ background-color: #3333ff;
  color:#fff;
- //*position: relative;
- z-index: 1;*/
+ position: relative;
+ z-index: 1;
+ border-radius: 5px;
 }
 .testimonial-image{
   width: 20%;
   border-radius: 100%;
 }
 #press{
-  background-color: #ff7185;
+  background-color:#3333ff;
   text-align: center;
-  padding-bottom: 3%;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 5px;
 
 }
 #pricing{
+  background-color:#3333ff;
   padding:5% 0%;
   text-align: center;
-
+  margin: 3px;
+}
+.pricing-fff{
+  color:#fff;
 }
 .pricing-column{
   padding-top: 3%  0%;
 }
 #cta{
-  background-color: #ff4c68;
-  padding-left: 35%;
+  background-color: #5c00e6;
   padding-bottom: 50px;
   text-align: center;
   color:#fff;
+  margin: 3px;
+  border-radius: 3px;
 }
 .action-h3{
-  padding: 5%;
-  line-height:2;
+  padding: 3%;
+  line-height:1;
 }
   .cta-btn{
 
@@ -102,6 +118,8 @@ h1{
   }
 
 #footer{
-  text-align:right;
+  background-color: #333333;
+  color:#fff;
+  text-align:center;
   padding:30px;
 }
