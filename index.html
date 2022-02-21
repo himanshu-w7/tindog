@@ -3,7 +3,8 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
   <title>Tindog</title>
   <!-- CSS only -->
 
@@ -24,22 +25,21 @@
       <nav class="navbar navbar-expand-lg navbar-dark ">
 
 
-          <a class="navbar-brand" href="">Tindog</a>
-          <div class="col-lg-6">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">Tindog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          </div>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02 col-lg-6 ">
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="">Content</a>
+                <a class="nav-link active" href="">Content</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">pricing</a>
+                <a class="nav-link active" href="#pricing">pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
+                <a class="nav-link active" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -52,7 +52,7 @@
           <button type="button" class="btn btn-dark download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
           <button type="button" class="btn btn-outline-light download-button"> <i class="fab fa-google-play"></i>Download</button>
       </div>
-        <div class="row-lg-6">
+        <div class="row-iphone">
           <img class="img-iphone col-lg" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
@@ -131,8 +131,8 @@
 
   <section id="pricing">
 <div class="row">
-  <h2>A Plan for Every Dog's Needs</h2>
-  <p>Simple and affordable price plans for your and your dog.</p>
+  <h2 class="pricing-fff">A Plan for Every Dog's Needs</h2>
+  <p class="pricing-fff">Simple and affordable price plans for your and your dog.</p>
   <div class="pricing-column col-lg-4 col-md-6">
     <div class="card">
       <div class="card-header">
@@ -184,7 +184,7 @@
 
   <section id="cta">
        <div class="row-cta">
-         <div class="col-lg-6">
+         <div class="cta-div">
     <h3 class="action-h3">Find the True Love of Your Dog's Life Today.</h3>
 
     <button class="btn btn-lg btn-outline-light cta-btn" type="button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
@@ -197,7 +197,7 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <div class="footer-row col-lg-6">
+    <div class="footer-row">
     <p>© Copyright TinDog</p>
   </div>
   </footer>
